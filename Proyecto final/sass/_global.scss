@@ -1,0 +1,57 @@
+//Global;
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@300 & family= Rubik & display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-image: url(../image/galeria/body.webp);
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Rubik', sans-serif;;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;;
+}
+
+
+//Variables;
+
+$font-p: 1rem;
+$font-h1: 3rem;
+$font-h2: 2.4rem;
+$font-h3: 2rem;
+
+p{
+  font-size: $font-p;
+  color: rgb(134, 132, 132)
+}
+
+h1{
+  font-size: $font-h1;
+}
+
+h2{
+  font-size: $font-h2;
+}
+
+h3{
+  font-size: $font-h3;
+  font-weight: lighter;
+}
+
+
+//Mixins;
+
+@mixin dimensiones($width, $height){
+  width: $width;
+  height: $height;
+}
